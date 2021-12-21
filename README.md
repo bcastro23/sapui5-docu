@@ -9,6 +9,7 @@ https://sapui5.hana.ondemand.com/#/topic/592f36fd077b45349a67dcb3efb46ab1
 Getting started ui5 CLI
 https://sap.github.io/ui5-tooling/pages/GettingStarted/
 
+### Create a project manually **(not best option)**
 1- Create root app Folder e.g. MyApp
 2- Create the app folder , a new folder called MyApp/webapp
 3- Create pakage.json file $ npm init --yes
@@ -18,7 +19,6 @@ https://sap.github.io/ui5-tooling/pages/GettingStarted/
 
 
 ### Another way to start with your project is by installing Yeoman template ###
- 
  ## check the templates $ yo --generators
 
  	@sapui5/sapui5-templates
@@ -31,12 +31,17 @@ https://sap.github.io/ui5-tooling/pages/GettingStarted/
 	$ yo @sapui5/sapui5-templates
 	 ## https://www.npmjs.com/package/@sapui5/generator-sapui5-templates
 
-2. basic UI5 use easy-ui5 generator
+2. Basic UI5 use easy-ui5 generator
 	https://www.npmjs.com/package/generator-easy-ui5
 
 	npm install -g yo generator-easy-ui5
 
 	Scaffold project -> $ yo easy-ui5 project
+	
+3. Adding libraries
+	$ ui5 add *library name* --config [ui5.yaml location] -> this adds library to ui5.yaml file
+	$ npm i -> install dependencies to project
+4. 	
 
 
 
