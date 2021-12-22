@@ -1,12 +1,12 @@
-SAPUI5 - Learning
+# SAPUI5 - Learning
 
-UI5 Tooling
+## UI5 Tooling
 https://sap.github.io/ui5-tooling/
 
-Quick start SAPUI5
+## Quick start SAPUI5
 https://sapui5.hana.ondemand.com/#/topic/592f36fd077b45349a67dcb3efb46ab1
 
-Getting started ui5 CLI
+## Getting started ui5 CLI
 https://sap.github.io/ui5-tooling/pages/GettingStarted/
 
 ### Create a project manually **(not best option)**
@@ -19,7 +19,7 @@ https://sap.github.io/ui5-tooling/pages/GettingStarted/
 
 
 ### Another way to start with your project is by installing Yeoman template ###
- ## check the templates $ yo --generators
+1. check the templates $ yo --generators
 
  	@sapui5/sapui5-templates
 	    1worklist
@@ -27,21 +27,23 @@ https://sap.github.io/ui5-tooling/pages/GettingStarted/
 	    3worklistodatav4
   	easy-ui5
 
-1. Create new project for Fiori worklist, masterdetail or worklist odata
+2. Create new project for Fiori worklist, masterdetail or worklist odata
 	$ yo @sapui5/sapui5-templates
 	 ## https://www.npmjs.com/package/@sapui5/generator-sapui5-templates
 
-2. Basic UI5 use easy-ui5 generator
+3. Basic UI5 use easy-ui5 generator
 	https://www.npmjs.com/package/generator-easy-ui5
 
 	npm install -g yo generator-easy-ui5
 
 	Scaffold project -> $ yo easy-ui5 project
 	
-3. Adding libraries
+4. Adding libraries
 	$ ui5 add *library name* --config [ui5.yaml location] -> this adds library to ui5.yaml file
 	$ npm i -> install dependencies to project
-4. 	
+
+### Start with UI5 development and VS Code
+	https://blogs.sap.com/2021/10/15/getting-ready-for-ui5-development-with-visual-studio-code/
 
 
 
